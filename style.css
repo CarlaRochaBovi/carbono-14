@@ -8,7 +8,7 @@
 h1 {
     text-align: center;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 50px;
     color: #463F3A;
 }
 
@@ -26,8 +26,8 @@ p {
 }
 
 .atom {
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     box-shadow: 10px 10px 15px rgba(0,0,0,0.25);
 }
 
@@ -88,6 +88,10 @@ body {
     text-align: center;
 }
 
+.section-2 p {
+    text-align: center;
+}
+
 .section-3 {
     position: relative;
     display: flex;
@@ -110,14 +114,16 @@ body {
 
 .arrow.left {
     left: 120px;
-    top: 525px;
+    top: 425px;
 }
 .arrow.right {
     right: 120px;
-    top: 525px;
+    top: 425px;
 }
 
 .img {
+    width: 1200px;
+    height: auto;
     display: none;
 }
 
