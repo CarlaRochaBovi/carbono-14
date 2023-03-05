@@ -13,21 +13,21 @@ h1 {
 }
 
 h2 {
-    text-align: left;
+    text-align: center;
     font-weight: 700;
     font-size: 50px;
     color: #463F3A;
 }
 
 p {
-    text-align: left;
+    text-align: center;
     font-size: 30px;
     color: #463F3A;
 }
 
 .atom {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     box-shadow: 10px 10px 15px rgba(0,0,0,0.25);
 }
 
@@ -60,11 +60,10 @@ body {
 .section-1 .container{
     display: flex;
     align-items: center;
+    gap: 40px;
 }
 
 .left {
-    text-align: left;
-    width: 50%;
     display: flex;
     align-items: left;
     justify-content: flex-start;
@@ -74,7 +73,6 @@ body {
 
 .right {
     text-align: right;
-    width: 50%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -127,4 +125,72 @@ body {
     display: none;
 }
 
+@media(max-width: 1300px) {
+    .section {
+        padding: 50px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .section-1 .container{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .img {
+        width: 500px;
+    }
+    
+    .arrow.left {
+        left: 120px;
+        top: 250px;
+    }
+    .arrow.right {
+        right: 120px;
+        top: 250px;
+    }
+}
+
+@media(max-width: 700px) {
+    .section  {
+        padding: 10px;
+    }
+    .header {
+        margin-bottom: 20px;
+
+    }
+
+    .left {
+        width: auto;
+    }
+    .right {
+        width: auto;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .atom {
+        width: 200px;
+        height: auto;
+    }
+    .img {
+        width: 200px;
+    }
+    .arrow.left {
+        width: 20px;
+        left: 0;
+        top: 50px;
+    }
+    .arrow.right {
+        width: 20px;
+        right: 0;
+        top: 50px;
+    }
+}
 
