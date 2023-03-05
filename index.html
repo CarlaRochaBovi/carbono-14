@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        
+        <section class="section section-1">
+            <div class="header">
+                <h1 class="title">CARBONO 14</h1>
+            </div>
+            <div class="container">
+                <div class="left">
+                    <h2>O que é  o carbono-14?</h2>
+                    <p>
+                        O carbono-14 nada mais é do que um isótopo radioativo formado por meio da colisão de raios cósmicos e do nitrogênio-14, ambos presentes na atmosfera terrestre. Assim, os organismos vivos presentes na Terra absorvem o carbono por meio da respiração, fazendo com que ocorra um equilíbrio entre a quantidade do elemento presente no organismo e na atmosfera.
+                    </p>
+                </div>
+                <div class="right">
+                    <img class="atom" src="./assets/atomo.png" alt="Um demonstração do átomo do carbono 14">
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="section section-2">
+            <h2>Datação com carbono 14</h2>
+            <p>
+                Por ser radioativo, o carbono-14 permitiu o desenvolvimento de uma técnica altamente eficaz para o estudo de cadáveres antigos. Assim, quando aplicado o isótopo em sedimentos orgânicos, como ossos e conchas marinhas, é possível determinar de maneira mais precisa a idade do fóssil, já que a quantidade de 14C tende a diminuir com o passar do tempo.
+                O carbono 14 é extremamente funcional na datação de fósseis, auxiliando os profissionais da área de Paleontologia a identificarem antigas relíquias. Isso acontece porque a meia vida de um radioisótopo é justamente o tempo necessário para que ocorra a desintegração da metade da sua massa.
+                Por exemplo, um organismo que apresenta 200g de massa de um elemento radioativo que, por sua vez, tem 10 anos de meia vida, terá, em exatos 10 anos, 100g de massa. Por isso é possível determinar qual é a idade da amostra fóssil pela quantidade de 14C presente.
+            </p>
+        </section>
+
+        <section class="section section-3">
+            <img onclick="changeImage(-1)" class="arrow left" src="./assets/left.png" alt="Arrow left">
+            <div>
+                <img class="img" src="./assets/img1.png" alt="Fóssil">
+                <img class="img" src="./assets/img2.png" alt="Fóssil">
+                <img class="img" src="./assets/img3.png" alt="Fóssil">
+                <img class="img" src="./assets/img4.png" alt="Fóssil">
+                <img class="img" src="./assets/img5.png" alt="Fóssil">
+            </div>
+            <img onclick="changeImage(1)" class="arrow right" src="./assets/right.png" alt="Arrow right">
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
